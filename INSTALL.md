@@ -28,7 +28,7 @@ If you only want to run the **simulator** (recommended baseline), you do *not* n
 ## 2) Get the code
 Clone the repository and move inside:
 ```
-[git clone https://github.com/<your-org>/<your-repo>.git](https://github.com/robertmora/distributed-edge-ai-lab)
+https://github.com/robertmora/distributed-edge-ai-lab
 cd distributed-edge-ai-lab
 ```
 
