@@ -14,8 +14,8 @@ It provides hands-on exercises on **TinyML training** and a **distributed AI Inf
 
 ## Quick Start (Simulator Only)
 ```bash
-git clone https://github.com/<your-org>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/robertmora/distributed-edge-ai-lab.git
+cd distributed-edge-ai-lab
 python3 -m venv .venv
 source .venv/bin/activate   # (Windows: .\.venv\Scripts\Activate.ps1)
 pip install -r requirements.txt
