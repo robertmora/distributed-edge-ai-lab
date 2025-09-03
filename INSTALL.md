@@ -28,8 +28,8 @@ If you only want to run the **simulator** (recommended baseline), you do *not* n
 ## 2) Get the code
 Clone the repository and move inside:
 ```
-git clone https://github.com/<your-org>/<your-repo>.git
-cd <your-repo>
+[git clone https://github.com/<your-org>/<your-repo>.git](https://github.com/robertmora/distributed-edge-ai-lab)
+cd distributed-edge-ai-lab
 ```
 
 ---
@@ -42,14 +42,14 @@ You can safely skip this step.
 
 ### macOS / Linux
 ```bash
-python3 -m edgeAIsim .venv
+python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 ```
 
 ### Windows (PowerShell)
 ```powershell
-py -m edgeAIsim .venv
+py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 ```
@@ -130,7 +130,7 @@ This prints a comparison table of policies (accuracy, deadlines met, latency, en
   
 ---
 
-## 9) Next Steps
+## 9) Next Steps (check the shared slides!)
 - Run the simulator → observe how policies behave.  
 - Try changing workload parameters (LM ratio, deadlines).  
 - In group work, extend the simulator with:  
