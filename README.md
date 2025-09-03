@@ -25,9 +25,9 @@ streamlit run app/streamlit_app.py
 Open http://localhost:8501 to explore.
 
 ## Run in Colab
-- `TinyML Training` [![Open TinyML Training in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-org>/<your-repo>/blob/main/notebooks/01_tinyml_training.ipynb)
+- `TinyML Training` [![Open TinyML Training in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15OEifrX-zNcVeYvsXhLkoi9MfLw40x4W?usp=sharing)
 
-- `Simulator` [![Open Simulator in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-org>/<your-repo>/blob/main/notebooks/02_simulator_colab.ipynb)
+- `Simulator` [![Open Simulator in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jwduBVq0Xcla1Q-lLdC-gbtwBRiTJcB5?usp=sharing)
 
 ## Requirements
 - Python 3.7–3.12  
