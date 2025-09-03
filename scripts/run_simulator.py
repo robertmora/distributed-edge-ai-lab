@@ -1,4 +1,7 @@
 import pandas as pd
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from lib.simulate import (
     DEFAULT_DEVICES, generate_workload, evaluate_policy,
     pol_always_local, pol_always_cloud, pol_conf_threshold, pol_latency_aware, pol_hybrid
@@ -9,7 +12,7 @@ devices["MCU"]["net_rtt"] = (0, 0)
 devices["EDGE"]["net_rtt"] = (5, 15)
 devices["CLOUD"]["net_rtt"] = (30, 120)
 
-workload = generate_workload(n=150, easy_ratio=0.6, deadline_range=(20,120), lm_ratio=0.25)
+workload = generate_workload(n=10, easy_ratio=0.6, deadline_range=(20,120), lm_ratio=0.25)
 
 policies = {
     "AlwaysLocal": pol_always_local,
@@ -27,7 +30,7 @@ for name, fn in policies.items():
         deadline_met_pct=("deadline_met","mean"),
         accuracy=("correct","mean"),
         avg_energy_mJ=("energy_mJ","mean"),
-    ).to_frame().T
+    ).T
     summary["policy"] = name
     rows.append(summary)
 
