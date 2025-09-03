@@ -6,7 +6,7 @@ import networkx as nx
 import os, sys
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from simlib.simulate import (
+from lib.simulate import (
     DEFAULT_DEVICES, ACC_MATRIX, generate_workload, evaluate_policy,
     pol_always_local, pol_always_cloud, pol_conf_threshold, pol_latency_aware, pol_hybrid
 )
