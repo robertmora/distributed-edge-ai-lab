@@ -34,7 +34,7 @@ Open http://localhost:8501 to explore.
 - Streamlit, NumPy, Pandas, Matplotlib, NetworkX  
 - (Optional) TensorFlow for TinyML training notebook  
 
-See [INSTALL.md](INSTALL.md) and the [slides](https://github.com/robertmora/distributed-edge-ai-lab/blob/main/Summer%20School%20on%20Edge%20AI%20%E2%80%93%20Exercise%20Session.pdf) for detailed instructions.
+See [INSTALL.md](INSTALL.md) and the [slides](https://github.com/robertmora/distributed-edge-ai-lab/blob/main/%5BSLIDES%5D%20Summer%20School%20on%20Edge%20AI%20%E2%80%93%20Exercise%20Session.pdf) for detailed instructions.
 
 ---
 Have fun experimenting with TinyML and Distributed AI inference!
